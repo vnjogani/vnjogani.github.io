@@ -5,12 +5,4 @@ var x = $('<span id="heading">FSMUN | Foutainhead School Model United Nations</s
 
 $("body").prepend(x);
 
-$.twitter.test(printSuccess);
-
 });
-
-function printSuccess(data, textStatus){
-
-alert(data);
-
-}
